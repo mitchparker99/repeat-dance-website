@@ -1302,7 +1302,7 @@ table.alt tfoot {
 /* Poptrox Popup */
 
 .poptrox-overlay {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: rgba(77, 228, 13, 0);
 }
 
 .poptrox-popup {
@@ -1839,26 +1839,13 @@ body.is-preload #header {
   position: relative;
 }
 
+
+
 #main .thumb:after {
-  background-image: -moz-linear-gradient(
-    to top,
-    rgba(10, 17, 25, 0.35) 5%,
-    rgba(10, 17, 25, 0) 35%
-  );
-  background-image: -webkit-linear-gradient(
-    to top,
-    rgba(10, 17, 25, 0.35) 5%,
-    rgba(10, 17, 25, 0) 35%
-  );
-  background-image: -ms-linear-gradient(
-    to top,
-    rgba(10, 17, 25, 0.35) 5%,
-    rgba(10, 17, 25, 0) 35%
-  );
-  background-image: linear-gradient(
-    to top,
-    rgba(10, 17, 25, 0.35) 5%,
-    rgba(10, 17, 25, 0) 35%
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    rgba(10, 17, 25, 0.35) 0%,
+    rgba(10, 17, 25, 0) 0%
   );
   pointer-events: none;
   background-size: cover;
